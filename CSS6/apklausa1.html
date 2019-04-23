@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&amp;subset=latin-ext" rel="stylesheet"> 
+    <link href="style.css" type="text/css" rel="stylesheet">
+	<title>form</title>
+</head>
+<body>
+    
+<div class="form">
+   <fieldset>
+    <legend style="">Jūsų informacija</legend>
+       <form>
+            <table>
+                <tr>
+                    <td>Vardas</td>
+                    <td><input type="text" name="name" required></td>
+                </tr>
+                <tr>
+                    <td>Pavardė</td>
+                    <td><input type="text" name="surname" required></td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+</div>
+    
+<div class="form">
+   <fieldset>
+      <legend style="">Klausimai</legend>
+        <form>
+          <table>
+             <tr>
+                <td>Iš kur sužinojote apie mus?
+
+                    <select name="is_kur">
+                        <option value="1">Google</option>
+                        <option value="2">Facebook</option>
+                        <option value="3">Delfi</option>
+                    </select>
+                </td>
+             </tr>
+             <tr>  </tr>
+             <tr>  </tr>
+             <tr>
+                <td>Ar apsilankysite vėl?<br>
+
+                    Taip <input type="radio" name="apsilankys" value="Taip">
+                    Ne <input type="radio" name="apsilankys" value="Ne">
+                    Galbūt <input type="radio" name="apsilankys" value="Ne">
+                </td>
+             </tr>
+             <tr>  </tr>
+             <tr>  </tr>
+             <tr>
+                <td>
+                    Ką manote apie kursą?<br>
+                    <textarea rows="10" cols="100" name="comment" placeholder="Rašykite viską, ką galvojate"></textarea>
+                </td>
+             </tr>
+             <tr>
+                        <table>    
+                            <tr>
+                                <td colspan="3">Pažymėkite programavimo/žymėjimo kalbas, su kuriomis esate susipažinęs:</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="planguage" value="csharp">C#  </td>
+                                <td><input type="checkbox" name="planguage" value="java">JAVA </td>
+                                <td><input type="checkbox" name="planguage" value="javascript">PHP<br> </td>
+                            </tr>
+                            <tr>
+                                <td>  <input type="checkbox" name="planguage" value="html">HTML</td>
+                                <td><input type="checkbox" name="planguage" value="css">CSS </td>
+                                <td><input type="checkbox" name="planguage" value="javascript">JavaScript </td>
+                            </tr>
+                            <tr>
+                                <td> <input type="checkbox" name="planguage" value="python">Python </td>
+                                <td> <input type="checkbox" name="planguage" value="Ruby">Ruby </td>
+                                <td> </td>
+                            </tr>                                  
+                       </table>
+             </tr>
+            <br>
+             <tr>
+                <td>
+                    <button type="submit">Siųsti</button>
+                </td>
+            </tr>
+         </table>
+       </form>
+    </fieldset>
+</div>
+    
+</body>
+</html>
