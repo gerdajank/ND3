@@ -1,0 +1,16 @@
+#h1, h2 
+{
+    color: deeppink;
+    font-family: fantasy;
+}
+div.a
+{
+    font-family:"Lucida Sans Unicode";
+    font-size:20px;
+}
+div.b
+{
+    font-family:ariel;
+    font-size:19px;
+    color: gray;
+}
