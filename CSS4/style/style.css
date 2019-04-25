@@ -89,10 +89,10 @@ p {
     border-top: 5px solid grey;
     border-bottom: 3px solid grey;
     text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center
       }
+
+
+    }
 
 /*li a:hover {
   background-color: #111;
