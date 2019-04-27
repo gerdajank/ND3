@@ -88,3 +88,12 @@
     font-size: 15px;
     margin: 20px 0
 }
+
+@media screen and (max-width: 768px){
+    .main{
+        flex-direction: column;
+    }
+    .offer{
+        width: 100%;
+    }
+}
