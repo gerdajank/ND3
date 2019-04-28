@@ -1,0 +1,66 @@
+
+.dalis1
+{
+    /*display: flex;*/
+    background: #ffd966;
+    padding: 15px;
+    margin:5px;
+     font-size: 15px;
+}
+
+.container{
+    padding: 14px;
+}
+
+.dalis2
+{
+    background: #1aff8c;
+    padding: 15px;
+    margin:5px;
+    font-size: 15px;
+}
+
+.Table   
+{
+    display: table;
+    border-collapse: collapse;
+}
+
+.Heading
+{
+    display: table-row;
+    font-weight: bold;
+    text-align: center;
+    background-color: #bb99ff;
+    border: 1px solid #000;
+}
+
+.Row
+{
+    display: table-row;
+    border: 1px solid #000;
+}
+
+.Row .Cell1, .Row .Cell2 {
+   border: 1px solid #000; 
+}
+
+
+.Cell1, .Cell2, .Cell3
+{
+    display: table-cell;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.Cell1
+{
+    width: 700px;
+    
+}
+
+.Cell3
+{
+    width: 200px;
+}
+
